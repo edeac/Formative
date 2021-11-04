@@ -3,9 +3,8 @@ body{
     color: white;
     background-image: url("lake1.jpg");
     background-repeat: no-repeat;
-    background-size: 100%;
+    background-size: cover; 
 }
-
 #menu{
     margin-top: 50px;
 }
@@ -53,7 +52,7 @@ h1{
 
  }
  h2,h3{
-     size: 150%;
+     font-size: 150%;
  }
  #About{
      float: left;
@@ -115,7 +114,7 @@ table{
     padding: 60px 30px;
     background-image: url("forest.jpg");
     background-repeat: no-repeat;
-    background-size: 100%;
+    background-size: cover;
     float: left;
     width: 100%;
     font-size: 130%;
@@ -174,4 +173,60 @@ dd {
 #reference{
     text-align: right;
     font-size: 70%;
+}
+
+@media only screen and (max-width: 1000px) {
+    #About{
+       width: 90%;
+       margin: 5% 30px;
+    }
+
+    #Aims{
+       width: 90%;
+       margin: 5%;
+       }
+
+    #header{
+        padding: 0px;
+        margin: 0px;
+     }
+    
+    #Facts{
+        margin-left: 0px;
+       padding:0px;
+       width: 100%;
+       font-size: 120%;
+    }
+
+    #newsletter{
+       padding: 50px;
+       width: 100%;
+       margin: 10px 0px;
+    }
+
+    #video{
+        padding: 20px 10px;
+        margin-right: 0px;
+        font-size: 100%;
+        width: 100%;
+    }
+    iframe{
+        width: 450px;
+        height: 320px;
+    }
+}
+
+
+
+@media only screen and (max-width: 550px) {
+    #header{
+        font-size: 90%;
+    }
+    #Facts{
+       font-size: 90%;
+    }
+    iframe{
+        width: 350px;
+        height: 240px;
+    }
 }
