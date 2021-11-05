@@ -213,6 +213,7 @@ dd {
     iframe{
         width: 450px;
         height: 320px;
+        margin-left: 5%;
     }
 }
 
@@ -226,7 +227,11 @@ dd {
        font-size: 90%;
     }
     iframe{
-        width: 350px;
+        width: 90%;
         height: 240px;
+        margin-left: 5%;
+    }
+    #newsletter{
+        width: 90%;
     }
 }
